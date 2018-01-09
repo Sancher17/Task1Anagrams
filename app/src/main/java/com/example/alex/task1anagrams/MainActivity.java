@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.alex.task1anagrams.util.Logger;
 import com.example.alex.task1anagrams.util.ReverseWords;
 
 import butterknife.BindView;
@@ -14,6 +15,8 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
+
+    private static Logger LOGGER = new Logger(MainActivity.class);
 
     @BindView(R.id.textView_output)
     TextView textView;
@@ -36,5 +39,11 @@ public class MainActivity extends AppCompatActivity {
         String input = editText.getText().toString();
         ReverseWords rv = new ReverseWords();
         textView.setText(rv.reverse(input));
+        try {
+            throw new Error();
+        }catch (Error e){
+            LOGGER.log(e.toString());
+            LOGGER.error(e);
+        }
     }
 }
