@@ -39,5 +39,11 @@ public class MainActivity extends AppCompatActivity {
         String input = editText.getText().toString();
         ReverseWords rv = new ReverseWords();
         textView.setText(rv.reverse(input));
+        try {
+            throw new Error();
+        }catch (Error e){
+            LOGGER.log(e.toString());
+            LOGGER.error(e);
+        }
     }
 }
