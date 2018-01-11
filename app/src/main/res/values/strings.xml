@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Task1Anagrams</string>
+    <string name="add_text">введите текст</string>
+    <string name="reverse">reverse</string>
+    <string name="rebuild">преобразование</string>
 </resources>
