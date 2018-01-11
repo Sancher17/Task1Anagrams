@@ -13,7 +13,9 @@ import com.example.alex.task1anagrams.util.ReverseWords;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import io.michaelrocks.paranoid.Obfuscate;
 
+@Obfuscate
 public class MainActivity extends AppCompatActivity {
 
     private static Logger LOGGER = new Logger(MainActivity.class);
