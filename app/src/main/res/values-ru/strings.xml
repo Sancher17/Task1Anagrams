@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Task1Anagrams-RUS</string>
+    <string name="add_text">введите текст</string>
+    <string name="reverse">реверс</string>
+    <string name="rebuild">результат</string>
+    <string name="selected_lang">Выбран язык по умолчанию</string>
+</resources>

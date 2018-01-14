@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">Task1Anagrams</string>
-    <string name="add_text">введите текст</string>
+    <string name="app_name">Task1Anagrams-ENG</string>
+    <string name="add_text">input text</string>
     <string name="reverse">reverse</string>
-    <string name="rebuild">преобразование</string>
+    <string name="rebuild">output text</string>
+    <string name="selected_lang">Default language selected</string>
 </resources>

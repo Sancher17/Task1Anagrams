@@ -13,9 +13,7 @@ import com.example.alex.task1anagrams.util.ReverseWords;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import io.michaelrocks.paranoid.Obfuscate;
 
-@Obfuscate
 public class MainActivity extends AppCompatActivity {
 
     private static Logger LOGGER = new Logger(MainActivity.class);
@@ -29,17 +27,37 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.button_start)
     Button button;
 
+    private String outputReverseText;
+    private ReverseWords rv;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+
+        if (savedInstanceState != null) {
+            outputReverseText = savedInstanceState.getString("setText");
+            textView.setText(outputReverseText);
+            LOGGER.log("onRestoreInstanceState");
+        }
     }
 
     @OnClick(R.id.button_start)
     void onClick(View view) {
+        LOGGER.log("Button clicked / id.button_start");
         String input = editText.getText().toString();
-        ReverseWords rv = new ReverseWords();
-        textView.setText(rv.reverse(input));
+        rv = new ReverseWords(this);
+        outputReverseText = rv.reverse(input);
+        textView.setText(outputReverseText);
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString("setText", outputReverseText);
+        LOGGER.log("onSaveInstanceState");
     }
 }
+
+
