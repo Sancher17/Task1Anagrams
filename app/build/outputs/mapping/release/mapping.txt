@@ -10486,17 +10486,7 @@ butterknife.Unbinder -> butterknife.Unbinder:
     void <clinit>() -> <clinit>
 butterknife.Unbinder$1 -> butterknife.Unbinder$1:
     void <init>() -> <init>
-butterknife.internal.DebouncingOnClickListener -> butterknife.a.a:
-    boolean enabled -> a
-    java.lang.Runnable ENABLE_AGAIN -> b
-    void <init>() -> <init>
-    void onClick(android.view.View) -> onClick
-    void doClick(android.view.View) -> a
-    void <clinit>() -> <clinit>
-butterknife.internal.DebouncingOnClickListener$1 -> butterknife.a.a$1:
-    void <init>() -> <init>
-    void run() -> run
-butterknife.internal.Utils -> butterknife.a.b:
+butterknife.internal.Utils -> butterknife.a.a:
     android.util.TypedValue VALUE -> a
     android.view.View findRequiredView(android.view.View,int,java.lang.String) -> a
     java.lang.Object findRequiredViewAsType(android.view.View,int,java.lang.String,java.lang.Class) -> a
@@ -10506,35 +10496,37 @@ butterknife.internal.Utils -> butterknife.a.b:
 com.example.alex.task1anagrams.MainActivity -> com.example.alex.task1anagrams.MainActivity:
     com.example.alex.task1anagrams.util.Logger LOGGER -> l
     android.widget.TextView textView -> textView
-    android.widget.EditText editText -> editText
-    android.widget.Button button -> button
     java.lang.String outputReverseText -> m
     com.example.alex.task1anagrams.util.ReverseWords rv -> n
     void <init>() -> <init>
     void onCreate(android.os.Bundle) -> onCreate
-    void onClick(android.view.View) -> onClick
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
     void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
     void <clinit>() -> <clinit>
 com.example.alex.task1anagrams.MainActivity_ViewBinding -> com.example.alex.task1anagrams.MainActivity_ViewBinding:
     com.example.alex.task1anagrams.MainActivity target -> b
-    android.view.View view2131165220 -> c
+    android.view.View view2131165231 -> c
+    android.text.TextWatcher view2131165231TextWatcher -> d
     void <init>(com.example.alex.task1anagrams.MainActivity,android.view.View) -> <init>
 com.example.alex.task1anagrams.MainActivity_ViewBinding$1 -> com.example.alex.task1anagrams.MainActivity_ViewBinding$1:
-    com.example.alex.task1anagrams.MainActivity val$target -> b
-    com.example.alex.task1anagrams.MainActivity_ViewBinding this$0 -> c
+    com.example.alex.task1anagrams.MainActivity val$target -> a
+    com.example.alex.task1anagrams.MainActivity_ViewBinding this$0 -> b
     void <init>(com.example.alex.task1anagrams.MainActivity_ViewBinding,com.example.alex.task1anagrams.MainActivity) -> <init>
-    void doClick(android.view.View) -> a
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
 com.example.alex.task1anagrams.util.Logger -> com.example.alex.task1anagrams.a.a:
     java.lang.String logTag -> a
     boolean isLogging -> b
     void <init>(java.lang.Class) -> <init>
     void log(java.lang.String) -> a
 com.example.alex.task1anagrams.util.ReverseWords -> com.example.alex.task1anagrams.a.b:
-    com.example.alex.task1anagrams.util.Logger LOGGER -> a
-    android.content.Context context -> b
-    java.lang.Character FIRST_LETTER -> c
-    java.lang.Character LAST_LETTER -> d
-    java.lang.String KEYBOARD -> e
+    com.example.alex.task1anagrams.util.Logger LOGGER -> b
+    android.content.Context context -> c
+    java.lang.Character FIRST_LETTER -> d
+    java.lang.Character LAST_LETTER -> e
+    java.lang.String KEYBOARD -> f
+    boolean $assertionsDisabled -> a
     void <init>(android.content.Context) -> <init>
     void checkLocale() -> a
     void checkKeyboard() -> b

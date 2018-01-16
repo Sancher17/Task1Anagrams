@@ -41,8 +41,8 @@ public class ReverseWords {
             LAST_LETTER = '\u05EA';
         } else {
             LOGGER.log("checkLocale() / nothing ");
-            String toast = context.getString(R.string.selected_lang);
-            Toast.makeText(context,toast , Toast.LENGTH_LONG).show();
+//            String toast = context.getString(R.string.selected_lang);
+//            Toast.makeText(context,toast , Toast.LENGTH_LONG).show();
         }
     }
 
@@ -51,6 +51,7 @@ public class ReverseWords {
         if (context != null){
             LOGGER.log("checkKeyboard() called / context not null: "+context.toString());
             InputMethodManager imm = (InputMethodManager) context.getSystemService(INPUT_METHOD_SERVICE);
+            assert imm != null;
             InputMethodSubtype ims = imm.getCurrentInputMethodSubtype();
             String localeString = ims.getLocale();
             Locale locale = new Locale(localeString);
@@ -87,7 +88,7 @@ public class ReverseWords {
             }
             //добавляем выброшенные символы - новая реализация
             for (int i = 0; i < indexOfSymbol.size(); i++) {
-                listOfSymbols.add((Integer) indexOfSymbol.get(i), valueOfSymbol.get(i));
+                listOfSymbols.add(indexOfSymbol.get(i), valueOfSymbol.get(i));
             }
             String out1 = "";
             for (Object str1 : listOfSymbols) {

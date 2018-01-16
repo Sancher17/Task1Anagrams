@@ -1,10 +1,8 @@
 package com.example.alex.task1anagrams;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
+import android.support.v7.app.AppCompatActivity;
+import android.text.Editable;
 import android.widget.TextView;
 
 import com.example.alex.task1anagrams.util.Logger;
@@ -12,7 +10,9 @@ import com.example.alex.task1anagrams.util.ReverseWords;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
+import butterknife.OnTextChanged;
+
+import static butterknife.OnTextChanged.Callback.AFTER_TEXT_CHANGED;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,12 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
     @BindView(R.id.textView_output)
     TextView textView;
-
-    @BindView(R.id.editText_input)
-    EditText editText;
-
-    @BindView(R.id.button_start)
-    Button button;
 
     private String outputReverseText;
     private ReverseWords rv;
@@ -43,12 +37,10 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    @OnClick(R.id.button_start)
-    void onClick(View view) {
-        LOGGER.log("Button clicked / id.button_start");
-        String input = editText.getText().toString();
+    @OnTextChanged(value = R.id.editText_input, callback = AFTER_TEXT_CHANGED)
+    public void afterTextChanged(Editable s) {
         rv = new ReverseWords(this);
-        outputReverseText = rv.reverse(input);
+        outputReverseText = rv.reverse(s.toString());
         textView.setText(outputReverseText);
     }
 

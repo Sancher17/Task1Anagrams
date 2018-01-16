@@ -4627,6 +4627,8 @@ butterknife.Unbinder:
     public abstract void unbind()
 butterknife.Unbinder$1:
     10:10:public void unbind()
+butterknife.internal.DebouncingOnClickListener
+butterknife.internal.DebouncingOnClickListener$1
 butterknife.internal.ImmutableList
 butterknife.internal.ListenerClass
 butterknife.internal.ListenerClass$NONE
@@ -4642,8 +4644,8 @@ butterknife.internal.Utils:
     147:148:private Utils()
 com.example.alex.task1anagrams.BuildConfig
 com.example.alex.task1anagrams.MainActivity_ViewBinding:
-    23:24:public MainActivity_ViewBinding(com.example.alex.task1anagrams.MainActivity)
-    47:57:public void unbind()
+    25:26:public MainActivity_ViewBinding(com.example.alex.task1anagrams.MainActivity)
+    56:65:public void unbind()
 com.example.alex.task1anagrams.R
 com.example.alex.task1anagrams.R$anim
 com.example.alex.task1anagrams.R$attr

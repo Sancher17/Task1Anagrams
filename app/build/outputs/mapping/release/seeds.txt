@@ -3190,10 +3190,8 @@ butterknife.internal.ListenerClass$NONE: butterknife.internal.ListenerClass$NONE
 butterknife.internal.ListenerClass$NONE: butterknife.internal.ListenerClass$NONE valueOf(java.lang.String)
 com.example.alex.task1anagrams.MainActivity
 com.example.alex.task1anagrams.MainActivity: android.widget.TextView textView
-com.example.alex.task1anagrams.MainActivity: android.widget.EditText editText
-com.example.alex.task1anagrams.MainActivity: android.widget.Button button
 com.example.alex.task1anagrams.MainActivity: MainActivity()
-com.example.alex.task1anagrams.MainActivity: void onClick(android.view.View)
+com.example.alex.task1anagrams.MainActivity: void afterTextChanged(android.text.Editable)
 com.example.alex.task1anagrams.MainActivity_ViewBinding
 com.example.alex.task1anagrams.MainActivity_ViewBinding: MainActivity_ViewBinding(com.example.alex.task1anagrams.MainActivity,android.view.View)
 com.example.alex.task1anagrams.R$anim: int abc_fade_in
@@ -3793,8 +3791,8 @@ com.example.alex.task1anagrams.R$drawable: int abc_textfield_search_activated_mt
 com.example.alex.task1anagrams.R$drawable: int abc_textfield_search_default_mtrl_alpha
 com.example.alex.task1anagrams.R$drawable: int abc_textfield_search_material
 com.example.alex.task1anagrams.R$drawable: int abc_vector_test
+com.example.alex.task1anagrams.R$drawable: int ic_group_work_black_24dp
 com.example.alex.task1anagrams.R$drawable: int ic_launcher_background
-com.example.alex.task1anagrams.R$drawable: int ic_launcher_foreground
 com.example.alex.task1anagrams.R$drawable: int notification_action_background
 com.example.alex.task1anagrams.R$drawable: int notification_bg
 com.example.alex.task1anagrams.R$drawable: int notification_bg_low
@@ -3845,7 +3843,6 @@ com.example.alex.task1anagrams.R$id: int beginning
 com.example.alex.task1anagrams.R$id: int blocking
 com.example.alex.task1anagrams.R$id: int bottom
 com.example.alex.task1anagrams.R$id: int buttonPanel
-com.example.alex.task1anagrams.R$id: int button_start
 com.example.alex.task1anagrams.R$id: int cancel_action
 com.example.alex.task1anagrams.R$id: int chains
 com.example.alex.task1anagrams.R$id: int checkbox
