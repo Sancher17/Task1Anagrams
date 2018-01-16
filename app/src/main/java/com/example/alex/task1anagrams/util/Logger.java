@@ -8,12 +8,9 @@ public class Logger {
 
     private String logTag;
 
-//    private boolean isLogging = BuildConfig.SHOW_LOGS; /??????
-    private boolean isLogging = false;
+    private boolean isLogging = BuildConfig.SHOW_LOGS;
 
-    //конструктор
     public Logger(Class c) {
-        //получаем имя класса
         logTag = c.getSimpleName();
     }
 

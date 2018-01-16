@@ -18,17 +18,17 @@ public class ReverseWords {
 
     private static Logger LOGGER = new Logger(ReverseWords.class);
 
-    Context context;
+    private Context context;
     private static Character FIRST_LETTER = '\u0041';
     private static Character LAST_LETTER = '\u007A';
-    public static String KEYBOARD = "en";
+    private static String KEYBOARD = "en";
 
     public ReverseWords (Context context){
         this.context = context;
     }
 
     //проверяем локализацию
-    public void checkLocale() {
+    private void checkLocale() {
         LOGGER.log("checkLocale() called");
         if (KEYBOARD.contains("en")) {
             FIRST_LETTER = '\u0041';
@@ -47,7 +47,7 @@ public class ReverseWords {
     }
 
     //проверяем текущую клавиатуру
-    public void checkKeyboard() {
+    private void checkKeyboard() {
         if (context != null){
             LOGGER.log("checkKeyboard() called / context not null: "+context.toString());
             InputMethodManager imm = (InputMethodManager) context.getSystemService(INPUT_METHOD_SERVICE);
@@ -71,9 +71,9 @@ public class ReverseWords {
         for (String str : list) {
             char[] strToArray = str.toCharArray(); //перегоняем буквы в список
             ArrayList<Character> listOfWords = new ArrayList<>();
-            ArrayList listOfSymbols = new ArrayList();//список для букв без СИМВОЛОВ
-            List indexOfSymbol = new ArrayList();
-            List valueOfSymbol = new ArrayList();
+            ArrayList <Character> listOfSymbols = new ArrayList<>();//список для букв без СИМВОЛОВ
+            List <Integer>indexOfSymbol = new ArrayList<>();
+            List <Character>valueOfSymbol = new ArrayList<>();
 
             for (int i = 0; i < strToArray.length; i++) {
                 listOfWords.add(strToArray[i]);

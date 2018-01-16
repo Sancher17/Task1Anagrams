@@ -21,3 +21,6 @@
 #-renamesourcefileattribute SourceFile
 
 #-dontobfuscate
+-dontnote android.net.http.*
+-dontnote org.apache.commons.codec.**
+-dontnote org.apache.http.**
