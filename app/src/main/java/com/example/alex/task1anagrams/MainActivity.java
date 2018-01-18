@@ -35,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
             textView.setText(outputReverseText);
             LOGGER.log("onRestoreInstanceState");
         }
+
+
+
     }
 
     @OnTextChanged(value = R.id.editText_input, callback = AFTER_TEXT_CHANGED)
