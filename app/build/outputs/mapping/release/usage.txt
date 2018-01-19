@@ -4661,5 +4661,7 @@ com.example.alex.task1anagrams.R$string
 com.example.alex.task1anagrams.R$style
 com.example.alex.task1anagrams.R$styleable
 com.example.alex.task1anagrams.util.Logger:
-    23:25:public void error(java.lang.Throwable)
+    27:29:public void error(java.lang.Throwable)
+io.michaelrocks.paranoid.Deobfuscator:
+    3:3:public Deobfuscator()
 io.michaelrocks.paranoid.Obfuscate

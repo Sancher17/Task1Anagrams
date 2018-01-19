@@ -4,6 +4,10 @@ import android.util.Log;
 
 import com.example.alex.task1anagrams.BuildConfig;
 
+import io.michaelrocks.paranoid.Obfuscate;
+
+
+@Obfuscate
 public class Logger {
 
     private String logTag;

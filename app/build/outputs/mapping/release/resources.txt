@@ -247,7 +247,6 @@ Referenced Strings:
   doBeforeTextChanged
   drawable
   duration
-  en
   ensureImeVisible
   file
   file_id
@@ -282,7 +281,6 @@ Referenced Strings:
   interpolator
   isProjected
   item
-  iw_IL
   java.
   keyframe
   layout_inflater
@@ -310,8 +308,6 @@ Referenced Strings:
   objectAnimator
   onLoadFinished
   onLoaderReset
-  onRestoreInstanceState
-  onSaveInstanceState
   ordering
   overshootInterpolator
   path
@@ -329,7 +325,6 @@ Referenced Strings:
   resolveInfo:
   result_code
   rotation
-  ru
   scaleX
   scaleY
   search
@@ -341,7 +336,6 @@ Referenced Strings:
   setEpicenterBounds
   setExclusiveCheckable
   setLayoutDirection
-  setText
   setTouchModal
   setWindowLayoutType
   startOffset
@@ -417,8 +411,6 @@ Marking attr:fontWeight:2130837625 used because its prefix matches string pool c
 Marking attr:fontFamily:2130837617 used because its prefix matches string pool constant font
 Marking attr:queryBackground:2130837719 used because its prefix matches string pool constant query
 Marking attr:queryHint:2130837720 used because its prefix matches string pool constant query
-Marking id:end_padder:2131165234 used because its prefix matches string pool constant en
-Marking id:end:2131165233 used because its prefix matches string pool constant en
 Marking declare-styleable:ConstraintSet:-1 used because its prefix matches string pool constant ConstraintSet
 Marking styleable:ConstraintSet:-1 used because its prefix matches string pool constant ConstraintSet
 Marking id:android:icon2:-1 used because its prefix matches string pool constant android
@@ -1030,7 +1022,6 @@ attr:font:2130837616,
    styleable:ConstraintLayout_Layout:-1,
    declare-styleable:ConstraintSet:-1,
    styleable:ConstraintSet:-1,
-   id:end_padder:2131165234,
    attr:actionBarPopupTheme:2130837506,
    attr:actionBarSize:2130837507,
    attr:actionBarStyle:2130837509,
@@ -1259,7 +1250,6 @@ attr:font:2130837616,
    styleable:ViewBackgroundHelper:-1,
    styleable:ViewStubCompat:-1,
    id:editText_input:2131165231,
-   id:end:2131165233,
    id:textView_output:2131165302,
    layout:activity_main:2131296283,
    mipmap:ic_launcher:2131361792,

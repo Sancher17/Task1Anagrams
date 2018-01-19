@@ -11,12 +11,18 @@ import com.example.alex.task1anagrams.util.ReverseWords;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnTextChanged;
+import io.michaelrocks.paranoid.Obfuscate;
 
 import static butterknife.OnTextChanged.Callback.AFTER_TEXT_CHANGED;
 
+@Obfuscate
 public class MainActivity extends AppCompatActivity {
 
     private static Logger LOGGER = new Logger(MainActivity.class);
+    String str = "Alex_boss";
+    private static final String QUESTION = "Q: %s";
+    private static final String ANSWER = "A: %s";
+
 
     @BindView(R.id.textView_output)
     TextView textView;
@@ -34,9 +40,11 @@ public class MainActivity extends AppCompatActivity {
             outputReverseText = savedInstanceState.getString("setText");
             textView.setText(outputReverseText);
             LOGGER.log("onRestoreInstanceState");
+            LOGGER.log(str);
+            LOGGER.log(QUESTION);
+            LOGGER.log(ANSWER);
+
         }
-
-
 
     }
 

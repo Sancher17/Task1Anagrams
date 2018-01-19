@@ -10494,10 +10494,13 @@ butterknife.internal.Utils -> butterknife.a.a:
     java.lang.String getResourceEntryName(android.view.View,int) -> a
     void <clinit>() -> <clinit>
 com.example.alex.task1anagrams.MainActivity -> com.example.alex.task1anagrams.MainActivity:
-    com.example.alex.task1anagrams.util.Logger LOGGER -> l
+    com.example.alex.task1anagrams.util.Logger LOGGER -> m
+    java.lang.String str -> l
+    java.lang.String QUESTION -> n
+    java.lang.String ANSWER -> o
     android.widget.TextView textView -> textView
-    java.lang.String outputReverseText -> m
-    com.example.alex.task1anagrams.util.ReverseWords rv -> n
+    java.lang.String outputReverseText -> p
+    com.example.alex.task1anagrams.util.ReverseWords rv -> q
     void <init>() -> <init>
     void onCreate(android.os.Bundle) -> onCreate
     void afterTextChanged(android.text.Editable) -> afterTextChanged
@@ -10531,4 +10534,13 @@ com.example.alex.task1anagrams.util.ReverseWords -> com.example.alex.task1anagra
     void checkLocale() -> a
     void checkKeyboard() -> b
     java.lang.String reverse(java.lang.String) -> a
+    void <clinit>() -> <clinit>
+io.michaelrocks.paranoid.Deobfuscator -> a.a.a.a:
+    char[] chars -> a
+    short[] indexes -> b
+    int[] locations -> c
+    void fillChars0() -> a
+    void fillIndexes0() -> b
+    void fillLocations0() -> c
+    java.lang.String getString(int) -> a
     void <clinit>() -> <clinit>

@@ -3,17 +3,17 @@ package com.example.alex.task1anagrams.util;
 import android.content.Context;
 import android.view.inputmethod.InputMethodManager;
 import android.view.inputmethod.InputMethodSubtype;
-import android.widget.Toast;
-
-import com.example.alex.task1anagrams.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 
+import io.michaelrocks.paranoid.Obfuscate;
+
 import static android.content.Context.INPUT_METHOD_SERVICE;
 
+@Obfuscate
 public class ReverseWords {
 
     private static Logger LOGGER = new Logger(ReverseWords.class);
