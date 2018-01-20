@@ -41,8 +41,6 @@ public class ReverseWords {
             LAST_LETTER = '\u05EA';
         } else {
             LOGGER.log("checkLocale() / nothing ");
-//            String toast = context.getString(R.string.selected_lang);
-//            Toast.makeText(context,toast , Toast.LENGTH_LONG).show();
         }
     }
 
