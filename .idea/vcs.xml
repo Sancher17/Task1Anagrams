@@ -2,7 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/jadx" vcs="Git" />
     <mapping directory="C:\Users\Alex\AndroidStudioProjects\Task1Anagrams\Task1Anagrams" vcs="Git" />
   </component>
 </project>
