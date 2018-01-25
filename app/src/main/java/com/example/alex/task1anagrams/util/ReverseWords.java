@@ -21,13 +21,29 @@ public class ReverseWords {
     private Context context;
     private static Character FIRST_LETTER = '\u0041';
     private static Character LAST_LETTER = '\u007A';
-    private static String KEYBOARD = "en";
+    public static String KEYBOARD = "en";
 
-    public ReverseWords (Context context){
+    public ReverseWords(Context context) {
         this.context = context;
     }
+    //1.проверяем текущую клавиатуру
+    private void checkKeyboard() {
+        if (context != null) {
+            LOGGER.log("checkKeyboard() called / context not null: " + context.toString());
+            InputMethodManager imm = (InputMethodManager) context.getSystemService(INPUT_METHOD_SERVICE);
+            if (imm != null){
+                InputMethodSubtype ims = imm.getCurrentInputMethodSubtype();
+                String localeString = ims.getLocale();
+                Locale locale = new Locale(localeString);
+                KEYBOARD = locale.getLanguage();
+            }
+            LOGGER.log("checkKeyboard() called / KEYBOARD: " + KEYBOARD);
+        } else {
+            LOGGER.log("checkKeyboard() called / context null");
+        }
+    }
 
-    //проверяем локализацию
+    //2.проверяем локализацию
     private void checkLocale() {
         LOGGER.log("checkLocale() called");
         if (KEYBOARD.contains("en")) {
@@ -37,26 +53,10 @@ public class ReverseWords {
             FIRST_LETTER = '\u0410';
             LAST_LETTER = '\u044F';
         } else if (KEYBOARD.contains("iw_IL")) {
-            FIRST_LETTER = '\u05D0';
-            LAST_LETTER = '\u05EA';
+            FIRST_LETTER = '\u0590';
+            LAST_LETTER = '\u05F4';
         } else {
             LOGGER.log("checkLocale() / nothing ");
-        }
-    }
-
-    //проверяем текущую клавиатуру
-    private void checkKeyboard() {
-        if (context != null){
-            LOGGER.log("checkKeyboard() called / context not null: "+context.toString());
-            InputMethodManager imm = (InputMethodManager) context.getSystemService(INPUT_METHOD_SERVICE);
-            assert imm != null;
-            InputMethodSubtype ims = imm.getCurrentInputMethodSubtype();
-            String localeString = ims.getLocale();
-            Locale locale = new Locale(localeString);
-            KEYBOARD = locale.getLanguage();
-            LOGGER.log("checkKeyboard() called / KEYBOARD: " + KEYBOARD);
-        }else {
-            LOGGER.log("checkKeyboard() called / context null");
         }
     }
 
@@ -70,9 +70,9 @@ public class ReverseWords {
         for (String str : list) {
             char[] strToArray = str.toCharArray(); //перегоняем буквы в список
             ArrayList<Character> listOfWords = new ArrayList<>();
-            ArrayList <Character> listOfSymbols = new ArrayList<>();//список для букв без СИМВОЛОВ
-            List <Integer>indexOfSymbol = new ArrayList<>();
-            List <Character>valueOfSymbol = new ArrayList<>();
+            ArrayList<Character> listOfSymbols = new ArrayList<>();//список для букв без СИМВОЛОВ
+            List<Integer> indexOfSymbol = new ArrayList<>();
+            List<Character> valueOfSymbol = new ArrayList<>();
 
             for (int i = 0; i < strToArray.length; i++) {
                 listOfWords.add(strToArray[i]);
@@ -95,7 +95,7 @@ public class ReverseWords {
             output = output.concat(out1).concat(" ");
         }
         LOGGER.log("reverse() called / output text: " + output);
-        return output;
+        return output.trim();
     }
 }
 
