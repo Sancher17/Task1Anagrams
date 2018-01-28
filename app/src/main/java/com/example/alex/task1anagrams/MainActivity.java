@@ -8,6 +8,10 @@ import android.widget.TextView;
 import com.example.alex.task1anagrams.util.Logger;
 import com.example.alex.task1anagrams.util.ReverseWords;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnTextChanged;
