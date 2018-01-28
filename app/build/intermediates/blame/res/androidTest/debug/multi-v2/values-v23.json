@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Alex\\AndroidStudioProjects\\Task1Anagrams\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\819420767a169f95b24f40d96ed6e8da\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\4b349f54130e051934d7e33f3424e488\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
