@@ -1,3 +1,0 @@
-01-28 18:03:49.724 info TestRunner started: useAppContext(com.example.alex.task1anagrams.ExampleInstrumentedTest)
-01-28 18:03:49.724 info MonitoringInstr Activities that are still in CREATED to STOPPED: 0
-01-28 18:03:49.724 info TestRunner finished: useAppContext(com.example.alex.task1anagrams.ExampleInstrumentedTest)

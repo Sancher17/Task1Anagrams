@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="add_text">הקלד טקסט</string>
-    <string name="app_name">Task1Anagrams-IW</string>
-    <string name="rebuild">לִבנוֹת מִחָדָשׁ</string>
-    <string name="reverse">לַהֲפוֹך</string>
-    <string name="selected_lang">שפת ברירת המחדל נבחרה</string>
-</resources>
