@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jan 28 12:12:19 EET 2018
+#Sun Jan 28 20:00:37 EET 2018
 0.baseType=DIRECTORY
 0.base=C\:\\Users\\Alex\\AndroidStudioProjects\\Task1Anagrams\\app\\build\\intermediates\\transforms\\dexMerger\\androidTest\\debug\\0
 0.path=classes.dex

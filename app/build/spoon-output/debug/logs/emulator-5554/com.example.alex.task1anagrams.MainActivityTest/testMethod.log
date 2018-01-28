@@ -1,60 +1,56 @@
-01-28 10:12:30.714 info TestRunner started: testMethod(com.example.alex.task1anagrams.MainActivityTest)
-01-28 10:12:30.718 info MonitoringInstr Activities that are still in CREATED to STOPPED: 0
-01-28 10:12:30.719 warn ActivityTestRule getActivityIntent() returned null using default: Intent(Intent.ACTION_MAIN)
-01-28 10:12:30.720 info ActivityTestRule Launching activity: ComponentInfo{com.example.alex.task1anagrams/com.example.alex.task1anagrams.MainActivity}
-01-28 10:12:30.723 debug MonitoringInstr execStartActivity(context, ibinder, ibinder, activity, intent, int, bundle
-01-28 10:12:30.787 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@3ca2852 in: PRE_ON_CREATE
-01-28 10:12:30.992 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@3ca2852 in: CREATED
-01-28 10:12:30.993 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@3ca2852 in: STARTED
-01-28 10:12:31.002 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@3ca2852 in: RESUMED
-01-28 10:12:31.018 debug OpenGLRenderer HWUI GL Pipeline
-01-28 10:12:31.107 info zygote android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
-01-28 10:12:31.107 info OpenGLRenderer Initialized EGL, version 1.4
-01-28 10:12:31.107 debug OpenGLRenderer Swap behavior 1
-01-28 10:12:31.158 debug EGL_emulation eglCreateContext: 0xaa5850c0: maj 2 min 0 rcv 2
-01-28 10:12:31.189 debug EGL_emulation eglMakeCurrent: 0xaa5850c0: ver 2 0 (tinfo 0xaa583340)
-01-28 10:12:31.382 debug EGL_emulation eglMakeCurrent: 0xaa5850c0: ver 2 0 (tinfo 0xaa583340)
-01-28 10:12:32.984 verbose View dispatchProvideAutofillStructure(): not laid out, ignoring 0 children of 1073741830
-01-28 10:12:32.988 info AssistStructure Flattened final assist data: 2180 bytes, containing 1 windows, 8 views
-01-28 10:12:33.882 debug Spoon Captured screenshot 'start'.
-01-28 10:12:33.917 debug InputManagerEventInjectionStrategy Creating injection strategy with input manager.
-01-28 10:12:33.952 info ViewInteraction Performing 'type text(as12d ds1a qwe)' action on view with id: com.example.alex.task1anagrams:id/editText_input
-01-28 10:12:34.263 debug UiControllerImpl Injecting string: "as12d ds1a qwe"
-01-28 10:12:34.509 debug ReverseWords reverse() called / input text: a
-01-28 10:12:34.527 debug ReverseWords reverse() called / output text: a 
-01-28 10:12:34.879 debug ReverseWords reverse() called / input text: as
-01-28 10:12:34.880 debug ReverseWords reverse() called / output text: sa 
-01-28 10:12:35.114 debug ReverseWords reverse() called / input text: as1
-01-28 10:12:35.115 debug ReverseWords reverse() called / output text: sa1 
-01-28 10:12:35.305 debug ReverseWords reverse() called / input text: as12
-01-28 10:12:35.306 debug ReverseWords reverse() called / output text: sa12 
-01-28 10:12:35.359 info zygote Do partial code cache collection, code=24KB, data=23KB
-01-28 10:12:35.359 info zygote After code cache collection, code=24KB, data=23KB
-01-28 10:12:35.360 info zygote Increasing code cache capacity to 128KB
-01-28 10:12:35.475 debug ReverseWords reverse() called / input text: as12d
-01-28 10:12:35.475 debug ReverseWords reverse() called / output text: ds12a 
-01-28 10:12:35.691 debug ReverseWords reverse() called / input text: as12d 
-01-28 10:12:35.691 debug ReverseWords reverse() called / output text: ds12a 
-01-28 10:12:35.983 debug ReverseWords reverse() called / input text: as12d d
-01-28 10:12:35.984 debug ReverseWords reverse() called / output text: ds12a d 
-01-28 10:12:36.150 debug ReverseWords reverse() called / input text: as12d ds
-01-28 10:12:36.150 debug ReverseWords reverse() called / output text: ds12a sd 
-01-28 10:12:36.262 debug ReverseWords reverse() called / input text: as12d ds1
-01-28 10:12:36.263 debug ReverseWords reverse() called / output text: ds12a sd1 
-01-28 10:12:36.560 debug ReverseWords reverse() called / input text: as12d ds1a
-01-28 10:12:36.560 debug ReverseWords reverse() called / output text: ds12a as1d 
-01-28 10:12:36.840 debug ReverseWords reverse() called / input text: as12d ds1a 
-01-28 10:12:36.841 debug ReverseWords reverse() called / output text: ds12a as1d 
-01-28 10:12:37.139 debug ReverseWords reverse() called / input text: as12d ds1a q
-01-28 10:12:37.140 debug ReverseWords reverse() called / output text: ds12a as1d q 
-01-28 10:12:37.222 info zygote Do partial code cache collection, code=61KB, data=51KB
-01-28 10:12:37.222 info zygote After code cache collection, code=61KB, data=51KB
-01-28 10:12:37.222 info zygote Increasing code cache capacity to 256KB
-01-28 10:12:37.426 debug ReverseWords reverse() called / input text: as12d ds1a qw
-01-28 10:12:37.426 debug ReverseWords reverse() called / output text: ds12a as1d wq 
-01-28 10:12:37.831 debug ReverseWords reverse() called / input text: as12d ds1a qwe
-01-28 10:12:37.832 debug ReverseWords reverse() called / output text: ds12a as1d ewq 
-01-28 10:12:38.142 info ViewInteraction Checking 'MatchesViewAssertion{viewMatcher=with text: is "ds12a as1d ewq"}' assertion on view with id: com.example.alex.task1anagrams:id/textView_output
-01-28 10:12:39.161 debug Spoon Captured screenshot 'end'.
-01-28 10:12:39.165 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@3ca2852 in: PAUSED
-01-28 10:12:39.252 info TestRunner finished: testMethod(com.example.alex.task1anagrams.MainActivityTest)
+01-28 18:03:55.763 info TestRunner started: testMethod(com.example.alex.task1anagrams.MainActivityTest)
+01-28 18:03:55.766 info MonitoringInstr Activities that are still in CREATED to STOPPED: 0
+01-28 18:03:55.766 warn ActivityTestRule getActivityIntent() returned null using default: Intent(Intent.ACTION_MAIN)
+01-28 18:03:55.767 info ActivityTestRule Launching activity: ComponentInfo{com.example.alex.task1anagrams/com.example.alex.task1anagrams.MainActivity}
+01-28 18:03:55.768 debug MonitoringInstr execStartActivity(context, ibinder, ibinder, activity, intent, int, bundle
+01-28 18:03:55.844 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@2e3c591e in: PRE_ON_CREATE
+01-28 18:03:55.854 warn art Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+01-28 18:03:55.912 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@2e3c591e in: CREATED
+01-28 18:03:55.912 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@2e3c591e in: STARTED
+01-28 18:03:55.912 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@2e3c591e in: RESUMED
+01-28 18:03:55.916 debug OpenGLRenderer Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+01-28 18:03:55.916 debug OpenGLRenderer [ 01-28 18:03:55.932 13884:13884 D/         ]
+01-28 18:03:55.916 debug OpenGLRenderer HostConnection::get() New Host Connection established 0xb40f2a10, tid 13884
+01-28 18:03:55.965 debug Atlas Validating map...
+01-28 18:03:56.057 info OpenGLRenderer Initialized EGL, version 1.4
+01-28 18:03:56.088 debug EGL_emulation eglCreateContext: 0xb42e7dc0: maj 2 min 0 rcv 2
+01-28 18:03:56.094 debug EGL_emulation eglMakeCurrent: 0xb42e7dc0: ver 2 0
+01-28 18:03:56.099 debug OpenGLRenderer Enabling debug mode 0
+01-28 18:03:56.137 debug EGL_emulation eglMakeCurrent: 0xb42e7dc0: ver 2 0
+01-28 18:03:58.135 debug Spoon Captured screenshot 'start'.
+01-28 18:03:58.141 debug InputManagerEventInjectionStrategy Creating injection strategy with input manager.
+01-28 18:03:58.155 info ViewInteraction Performing 'type text(as12d ds1a qwe)' action on view with id: com.example.alex.task1anagrams:id/editText_input
+01-28 18:03:58.422 debug UiControllerImpl Injecting string: "as12d ds1a qwe"
+01-28 18:03:58.448 debug ReverseWords reverse() called / input text: a
+01-28 18:03:58.448 debug ReverseWords reverse() called / output text: a 
+01-28 18:03:58.532 debug ReverseWords reverse() called / input text: as
+01-28 18:03:58.532 debug ReverseWords reverse() called / output text: sa 
+01-28 18:03:58.667 debug ReverseWords reverse() called / input text: as1
+01-28 18:03:58.667 debug ReverseWords reverse() called / output text: sa1 
+01-28 18:03:58.752 debug ReverseWords reverse() called / input text: as12
+01-28 18:03:58.752 debug ReverseWords reverse() called / output text: sa12 
+01-28 18:03:58.950 debug ReverseWords reverse() called / input text: as12d
+01-28 18:03:58.950 debug ReverseWords reverse() called / output text: ds12a 
+01-28 18:03:58.970 debug ReverseWords reverse() called / input text: as12d 
+01-28 18:03:58.970 debug ReverseWords reverse() called / output text: ds12a 
+01-28 18:03:59.035 debug ReverseWords reverse() called / input text: as12d d
+01-28 18:03:59.035 debug ReverseWords reverse() called / output text: ds12a d 
+01-28 18:03:59.101 debug ReverseWords reverse() called / input text: as12d ds
+01-28 18:03:59.101 debug ReverseWords reverse() called / output text: ds12a sd 
+01-28 18:03:59.170 debug ReverseWords reverse() called / input text: as12d ds1
+01-28 18:03:59.171 debug ReverseWords reverse() called / output text: ds12a sd1 
+01-28 18:03:59.284 debug ReverseWords reverse() called / input text: as12d ds1a
+01-28 18:03:59.284 debug ReverseWords reverse() called / output text: ds12a as1d 
+01-28 18:03:59.405 debug ReverseWords reverse() called / input text: as12d ds1a 
+01-28 18:03:59.405 debug ReverseWords reverse() called / output text: ds12a as1d 
+01-28 18:03:59.479 debug ReverseWords reverse() called / input text: as12d ds1a q
+01-28 18:03:59.480 debug ReverseWords reverse() called / output text: ds12a as1d q 
+01-28 18:03:59.548 debug ReverseWords reverse() called / input text: as12d ds1a qw
+01-28 18:03:59.548 debug ReverseWords reverse() called / output text: ds12a as1d wq 
+01-28 18:03:59.785 debug ReverseWords reverse() called / input text: as12d ds1a qwe
+01-28 18:03:59.785 debug ReverseWords reverse() called / output text: ds12a as1d ewq 
+01-28 18:04:00.326 info ViewInteraction Checking 'MatchesViewAssertion{viewMatcher=with text: is "ds12a as1d ewq"}' assertion on view with id: com.example.alex.task1anagrams:id/textView_output
+01-28 18:04:00.489 info art Background partial concurrent mark sweep GC freed 181(27KB) AllocSpace objects, 1(7MB) LOS objects, 28% free, 9MB/13MB, paused 5.374ms total 120.484ms
+01-28 18:04:01.026 debug Spoon Captured screenshot 'end'.
+01-28 18:04:01.075 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@2e3c591e in: PAUSED
+01-28 18:04:01.081 info TestRunner finished: testMethod(com.example.alex.task1anagrams.MainActivityTest)

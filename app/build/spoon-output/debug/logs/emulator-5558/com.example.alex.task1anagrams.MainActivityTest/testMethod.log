@@ -1,156 +1,62 @@
-01-28 10:12:24.792 info TestRunner started: testMethod(com.example.alex.task1anagrams.MainActivityTest)
-01-28 10:12:24.802 info MonitoringInstr Activities that are still in CREATED to STOPPED: 0
-01-28 10:12:24.802 warn ActivityTestRule getActivityIntent() returned null using default: Intent(Intent.ACTION_MAIN)
-01-28 10:12:24.802 info ActivityTestRule Launching activity: ComponentInfo{com.example.alex.task1anagrams/com.example.alex.task1anagrams.MainActivity}
-01-28 10:12:24.802 debug MonitoringInstr execStartActivity(context, ibinder, ibinder, activity, intent, int, bundle
-01-28 10:12:24.862 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@ad010f20 in: PRE_ON_CREATE
-01-28 10:12:24.872 info dalvikvm Could not find method android.view.Window$Callback.onPointerCaptureChanged, referenced from method android.support.v7.view.WindowCallbackWrapper.onPointerCaptureChanged
-01-28 10:12:24.872 warn dalvikvm VFY: unable to resolve interface method 15990: Landroid/view/Window$Callback;.onPointerCaptureChanged (Z)V
-01-28 10:12:24.872 debug dalvikvm VFY: replacing opcode 0x72 at 0x0002
-01-28 10:12:24.872 info dalvikvm Could not find method android.view.Window$Callback.onProvideKeyboardShortcuts, referenced from method android.support.v7.view.WindowCallbackWrapper.onProvideKeyboardShortcuts
-01-28 10:12:24.872 warn dalvikvm VFY: unable to resolve interface method 15992: Landroid/view/Window$Callback;.onProvideKeyboardShortcuts (Ljava/util/List;Landroid/view/Menu;I)V
-01-28 10:12:24.872 debug dalvikvm VFY: replacing opcode 0x72 at 0x0002
-01-28 10:12:24.872 warn dalvikvm VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
-01-28 10:12:24.872 info dalvikvm Could not find method android.view.Window$Callback.onSearchRequested, referenced from method android.support.v7.view.WindowCallbackWrapper.onSearchRequested
-01-28 10:12:24.872 warn dalvikvm VFY: unable to resolve interface method 15994: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
-01-28 10:12:24.872 debug dalvikvm VFY: replacing opcode 0x72 at 0x0002
-01-28 10:12:24.872 info dalvikvm Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method android.support.v7.view.WindowCallbackWrapper.onWindowStartingActionMode
-01-28 10:12:24.872 warn dalvikvm VFY: unable to resolve interface method 15998: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
-01-28 10:12:24.872 debug dalvikvm VFY: replacing opcode 0x72 at 0x0002
-01-28 10:12:24.872 info dalvikvm Could not find method android.content.res.TypedArray.getChangingConfigurations, referenced from method android.support.v7.widget.TintTypedArray.getChangingConfigurations
-01-28 10:12:24.872 warn dalvikvm VFY: unable to resolve virtual method 705: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
-01-28 10:12:24.872 debug dalvikvm VFY: replacing opcode 0x6e at 0x0002
-01-28 10:12:24.882 info dalvikvm Could not find method android.content.res.TypedArray.getType, referenced from method android.support.v7.widget.TintTypedArray.getType
-01-28 10:12:24.882 warn dalvikvm VFY: unable to resolve virtual method 727: Landroid/content/res/TypedArray;.getType (I)I
-01-28 10:12:24.882 debug dalvikvm VFY: replacing opcode 0x6e at 0x0008
-01-28 10:12:24.892 info dalvikvm Could not find method android.content.Context.createDeviceProtectedStorageContext, referenced from method android.support.v4.content.ContextCompat.createDeviceProtectedStorageContext
-01-28 10:12:24.892 warn dalvikvm VFY: unable to resolve virtual method 486: Landroid/content/Context;.createDeviceProtectedStorageContext ()Landroid/content/Context;
-01-28 10:12:24.892 debug dalvikvm VFY: replacing opcode 0x6e at 0x0006
-01-28 10:12:24.892 info dalvikvm Could not find method android.content.Context.getCodeCacheDir, referenced from method android.support.v4.content.ContextCompat.getCodeCacheDir
-01-28 10:12:24.892 warn dalvikvm VFY: unable to resolve virtual method 492: Landroid/content/Context;.getCodeCacheDir ()Ljava/io/File;
-01-28 10:12:24.892 debug dalvikvm VFY: replacing opcode 0x6e at 0x0006
-01-28 10:12:24.892 info dalvikvm Could not find method android.content.Context.getColor, referenced from method android.support.v4.content.ContextCompat.getColor
-01-28 10:12:24.892 warn dalvikvm VFY: unable to resolve virtual method 493: Landroid/content/Context;.getColor (I)I
-01-28 10:12:24.892 debug dalvikvm VFY: replacing opcode 0x6e at 0x0006
-01-28 10:12:24.892 info dalvikvm Could not find method android.content.Context.getColorStateList, referenced from method android.support.v4.content.ContextCompat.getColorStateList
-01-28 10:12:24.892 warn dalvikvm VFY: unable to resolve virtual method 494: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
-01-28 10:12:24.892 debug dalvikvm VFY: replacing opcode 0x6e at 0x0006
-01-28 10:12:24.892 info dalvikvm Could not find method android.content.Context.getDataDir, referenced from method android.support.v4.content.ContextCompat.getDataDir
-01-28 10:12:24.892 warn dalvikvm VFY: unable to resolve virtual method 496: Landroid/content/Context;.getDataDir ()Ljava/io/File;
-01-28 10:12:24.892 debug dalvikvm VFY: replacing opcode 0x6e at 0x0006
-01-28 10:12:24.892 info dalvikvm Could not find method android.content.Context.getDrawable, referenced from method android.support.v4.content.ContextCompat.getDrawable
-01-28 10:12:24.892 warn dalvikvm VFY: unable to resolve virtual method 497: Landroid/content/Context;.getDrawable (I)Landroid/graphics/drawable/Drawable;
-01-28 10:12:24.892 debug dalvikvm VFY: replacing opcode 0x6e at 0x0006
-01-28 10:12:24.892 info dalvikvm Could not find method android.content.Context.getNoBackupFilesDir, referenced from method android.support.v4.content.ContextCompat.getNoBackupFilesDir
-01-28 10:12:24.892 warn dalvikvm VFY: unable to resolve virtual method 504: Landroid/content/Context;.getNoBackupFilesDir ()Ljava/io/File;
-01-28 10:12:24.892 debug dalvikvm VFY: replacing opcode 0x6e at 0x0006
-01-28 10:12:24.892 info dalvikvm Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method android.support.v4.content.ContextCompat.isDeviceProtectedStorage
-01-28 10:12:24.892 warn dalvikvm VFY: unable to resolve virtual method 517: Landroid/content/Context;.isDeviceProtectedStorage ()Z
-01-28 10:12:24.892 debug dalvikvm VFY: replacing opcode 0x6e at 0x0006
-01-28 10:12:24.892 info dalvikvm Could not find method android.content.Context.startForegroundService, referenced from method android.support.v4.content.ContextCompat.startForegroundService
-01-28 10:12:24.892 warn dalvikvm VFY: unable to resolve virtual method 532: Landroid/content/Context;.startForegroundService (Landroid/content/Intent;)Landroid/content/ComponentName;
-01-28 10:12:24.892 debug dalvikvm VFY: replacing opcode 0x6e at 0x0006
-01-28 10:12:24.932 info dalvikvm Could not find method android.widget.FrameLayout.startActionModeForChild, referenced from method android.support.v7.widget.ActionBarContainer.startActionModeForChild
-01-28 10:12:24.932 warn dalvikvm VFY: unable to resolve virtual method 16459: Landroid/widget/FrameLayout;.startActionModeForChild (Landroid/view/View;Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
-01-28 10:12:24.932 debug dalvikvm VFY: replacing opcode 0x6f at 0x0002
-01-28 10:12:24.932 info dalvikvm Could not find method android.content.Context.getColorStateList, referenced from method android.support.v7.content.res.AppCompatResources.getColorStateList
-01-28 10:12:24.932 warn dalvikvm VFY: unable to resolve virtual method 494: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
-01-28 10:12:24.942 debug dalvikvm VFY: replacing opcode 0x6e at 0x0006
-01-28 10:12:24.942 warn dalvikvm VFY: unable to find class referenced in signature (Landroid/graphics/drawable/Icon;)
-01-28 10:12:24.942 info dalvikvm Could not find method android.widget.ImageButton.setImageIcon, referenced from method android.support.v7.widget.AppCompatImageButton.setImageIcon
-01-28 10:12:24.942 warn dalvikvm VFY: unable to resolve virtual method 16482: Landroid/widget/ImageButton;.setImageIcon (Landroid/graphics/drawable/Icon;)V
-01-28 10:12:24.942 debug dalvikvm VFY: replacing opcode 0x6f at 0x0000
-01-28 10:12:24.942 info dalvikvm Could not find method android.content.res.Resources.getDrawable, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawable
-01-28 10:12:24.942 warn dalvikvm VFY: unable to resolve virtual method 668: Landroid/content/res/Resources;.getDrawable (ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
-01-28 10:12:24.942 debug dalvikvm VFY: replacing opcode 0x6e at 0x0002
-01-28 10:12:24.942 info dalvikvm Could not find method android.content.res.Resources.getDrawableForDensity, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawableForDensity
-01-28 10:12:24.942 warn dalvikvm VFY: unable to resolve virtual method 670: Landroid/content/res/Resources;.getDrawableForDensity (IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
-01-28 10:12:24.942 debug dalvikvm VFY: replacing opcode 0x6e at 0x0002
-01-28 10:12:24.952 error dalvikvm Could not find class 'android.graphics.drawable.RippleDrawable', referenced from method android.support.v7.widget.AppCompatImageHelper.hasOverlappingRendering
-01-28 10:12:24.952 warn dalvikvm VFY: unable to resolve instanceof 193 (Landroid/graphics/drawable/RippleDrawable;) in Landroid/support/v7/widget/AppCompatImageHelper;
-01-28 10:12:24.952 debug dalvikvm VFY: replacing opcode 0x20 at 0x000c
-01-28 10:12:24.952 info dalvikvm Could not find method android.widget.TextView.getAutoSizeMaxTextSize, referenced from method android.support.v7.widget.AppCompatTextView.getAutoSizeMaxTextSize
-01-28 10:12:24.952 warn dalvikvm VFY: unable to resolve virtual method 16779: Landroid/widget/TextView;.getAutoSizeMaxTextSize ()I
-01-28 10:12:24.952 debug dalvikvm VFY: replacing opcode 0x6f at 0x0006
-01-28 10:12:24.952 info dalvikvm Could not find method android.widget.TextView.getAutoSizeMinTextSize, referenced from method android.support.v7.widget.AppCompatTextView.getAutoSizeMinTextSize
-01-28 10:12:24.962 warn dalvikvm VFY: unable to resolve virtual method 16780: Landroid/widget/TextView;.getAutoSizeMinTextSize ()I
-01-28 10:12:24.962 debug dalvikvm VFY: replacing opcode 0x6f at 0x0006
-01-28 10:12:24.962 info dalvikvm Could not find method android.widget.TextView.getAutoSizeStepGranularity, referenced from method android.support.v7.widget.AppCompatTextView.getAutoSizeStepGranularity
-01-28 10:12:24.962 warn dalvikvm VFY: unable to resolve virtual method 16781: Landroid/widget/TextView;.getAutoSizeStepGranularity ()I
-01-28 10:12:24.962 debug dalvikvm VFY: replacing opcode 0x6f at 0x0006
-01-28 10:12:24.962 info dalvikvm Could not find method android.widget.TextView.getAutoSizeTextAvailableSizes, referenced from method android.support.v7.widget.AppCompatTextView.getAutoSizeTextAvailableSizes
-01-28 10:12:24.962 warn dalvikvm VFY: unable to resolve virtual method 16782: Landroid/widget/TextView;.getAutoSizeTextAvailableSizes ()[I
-01-28 10:12:24.962 debug dalvikvm VFY: replacing opcode 0x6f at 0x0006
-01-28 10:12:24.962 info dalvikvm Could not find method android.widget.TextView.getAutoSizeTextType, referenced from method android.support.v7.widget.AppCompatTextView.getAutoSizeTextType
-01-28 10:12:24.962 warn dalvikvm VFY: unable to resolve virtual method 16783: Landroid/widget/TextView;.getAutoSizeTextType ()I
-01-28 10:12:24.972 debug dalvikvm VFY: replacing opcode 0x6f at 0x0008
-01-28 10:12:24.972 info dalvikvm Could not find method android.widget.TextView.setAutoSizeTextTypeUniformWithConfiguration, referenced from method android.support.v7.widget.AppCompatTextView.setAutoSizeTextTypeUniformWithConfiguration
-01-28 10:12:24.972 warn dalvikvm VFY: unable to resolve virtual method 16827: Landroid/widget/TextView;.setAutoSizeTextTypeUniformWithConfiguration (IIII)V
-01-28 10:12:24.972 debug dalvikvm VFY: replacing opcode 0x6f at 0x0006
-01-28 10:12:24.972 info dalvikvm Could not find method android.widget.TextView.setAutoSizeTextTypeUniformWithPresetSizes, referenced from method android.support.v7.widget.AppCompatTextView.setAutoSizeTextTypeUniformWithPresetSizes
-01-28 10:12:24.972 warn dalvikvm VFY: unable to resolve virtual method 16828: Landroid/widget/TextView;.setAutoSizeTextTypeUniformWithPresetSizes ([II)V
-01-28 10:12:24.972 debug dalvikvm VFY: replacing opcode 0x6f at 0x0006
-01-28 10:12:24.972 info dalvikvm Could not find method android.widget.TextView.setAutoSizeTextTypeWithDefaults, referenced from method android.support.v7.widget.AppCompatTextView.setAutoSizeTextTypeWithDefaults
-01-28 10:12:24.972 warn dalvikvm VFY: unable to resolve virtual method 16829: Landroid/widget/TextView;.setAutoSizeTextTypeWithDefaults (I)V
-01-28 10:12:24.972 debug dalvikvm VFY: replacing opcode 0x6f at 0x0006
-01-28 10:12:24.972 info dalvikvm Could not find method android.widget.TextView.getAutoSizeStepGranularity, referenced from method android.support.v7.widget.AppCompatTextHelper.loadFromAttributes
-01-28 10:12:24.972 warn dalvikvm VFY: unable to resolve virtual method 16781: Landroid/widget/TextView;.getAutoSizeStepGranularity ()I
-01-28 10:12:24.972 debug dalvikvm VFY: replacing opcode 0x6e at 0x0197
-01-28 10:12:24.972 info dalvikvm Could not find method android.text.StaticLayout$Builder.obtain, referenced from method android.support.v7.widget.AppCompatTextViewAutoSizeHelper.createStaticLayoutForMeasuring
-01-28 10:12:24.972 warn dalvikvm VFY: unable to resolve static method 15267: Landroid/text/StaticLayout$Builder;.obtain (Ljava/lang/CharSequence;IILandroid/text/TextPaint;I)Landroid/text/StaticLayout$Builder;
-01-28 10:12:24.972 debug dalvikvm VFY: replacing opcode 0x71 at 0x0014
-01-28 10:12:24.992 debug dalvikvm GC_CONCURRENT freed 203K, 10% free 3099K/3432K, paused 4ms+0ms, total 11ms
-01-28 10:12:24.992 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@ad010f20 in: CREATED
-01-28 10:12:24.992 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@ad010f20 in: STARTED
-01-28 10:12:24.992 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@ad010f20 in: RESUMED
-01-28 10:12:24.992 debug LifecycleMonitor [ 01-28 10:12:25.182  8135: 8135 D/         ]
-01-28 10:12:24.992 debug LifecycleMonitor HostConnection::get() New Host Connection established 0xb83ca4d0, tid 8135
-01-28 10:12:25.192 debug EGL_emulation eglCreateContext: 0xb83c95d0: maj 2 min 0 rcv 2
-01-28 10:12:25.222 debug EGL_emulation eglMakeCurrent: 0xb83c95d0: ver 2 0
-01-28 10:12:25.232 debug OpenGLRenderer Enabling debug mode 0
-01-28 10:12:25.272 warn dalvikvm VFY: unable to find class referenced in signature (Landroid/graphics/drawable/Icon;)
-01-28 10:12:25.272 info dalvikvm Could not find method android.widget.ImageView.setImageIcon, referenced from method android.support.v7.widget.AppCompatImageView.setImageIcon
-01-28 10:12:25.272 warn dalvikvm VFY: unable to resolve virtual method 16517: Landroid/widget/ImageView;.setImageIcon (Landroid/graphics/drawable/Icon;)V
-01-28 10:12:25.272 debug dalvikvm VFY: replacing opcode 0x6f at 0x0000
-01-28 10:12:25.982 debug dalvikvm GC_FOR_ALLOC freed 87K, 8% free 3166K/3432K, paused 5ms, total 5ms
-01-28 10:12:25.982 info dalvikvm-heap Grow heap (frag case) to 6.730MB for 3686412-byte allocation
-01-28 10:12:25.982 debug dalvikvm GC_FOR_ALLOC freed 0K, 4% free 6766K/7036K, paused 4ms, total 4ms
-01-28 10:12:26.142 debug Spoon Captured screenshot 'start'.
-01-28 10:12:26.152 debug InputManagerEventInjectionStrategy Creating injection strategy with input manager.
-01-28 10:12:26.162 info ViewInteraction Performing 'type text(as12d ds1a qwe)' action on view with id: com.example.alex.task1anagrams:id/editText_input
-01-28 10:12:26.602 debug UiControllerImpl Injecting string: "as12d ds1a qwe"
-01-28 10:12:26.602 debug ReverseWords reverse() called / input text: a
-01-28 10:12:26.602 debug ReverseWords reverse() called / output text: a 
-01-28 10:12:26.632 debug ReverseWords reverse() called / input text: as
-01-28 10:12:26.632 debug ReverseWords reverse() called / output text: sa 
-01-28 10:12:26.662 debug ReverseWords reverse() called / input text: as1
-01-28 10:12:26.662 debug ReverseWords reverse() called / output text: sa1 
-01-28 10:12:26.702 debug ReverseWords reverse() called / input text: as12
-01-28 10:12:26.702 debug ReverseWords reverse() called / output text: sa12 
-01-28 10:12:26.732 debug ReverseWords reverse() called / input text: as12d
-01-28 10:12:26.732 debug ReverseWords reverse() called / output text: ds12a 
-01-28 10:12:26.762 debug ReverseWords reverse() called / input text: as12d 
-01-28 10:12:26.762 debug ReverseWords reverse() called / output text: ds12a 
-01-28 10:12:26.792 debug ReverseWords reverse() called / input text: as12d d
-01-28 10:12:26.792 debug ReverseWords reverse() called / output text: ds12a d 
-01-28 10:12:26.822 debug ReverseWords reverse() called / input text: as12d ds
-01-28 10:12:26.822 debug ReverseWords reverse() called / output text: ds12a sd 
-01-28 10:12:26.842 debug ReverseWords reverse() called / input text: as12d ds1
-01-28 10:12:26.842 debug ReverseWords reverse() called / output text: ds12a sd1 
-01-28 10:12:26.882 debug ReverseWords reverse() called / input text: as12d ds1a
-01-28 10:12:26.882 debug ReverseWords reverse() called / output text: ds12a as1d 
-01-28 10:12:26.932 debug ReverseWords reverse() called / input text: as12d ds1a 
-01-28 10:12:26.932 debug ReverseWords reverse() called / output text: ds12a as1d 
-01-28 10:12:26.982 debug ReverseWords reverse() called / input text: as12d ds1a q
-01-28 10:12:26.982 debug ReverseWords reverse() called / output text: ds12a as1d q 
-01-28 10:12:27.042 debug ReverseWords reverse() called / input text: as12d ds1a qw
-01-28 10:12:27.042 debug ReverseWords reverse() called / output text: ds12a as1d wq 
-01-28 10:12:27.082 debug ReverseWords reverse() called / input text: as12d ds1a qwe
-01-28 10:12:27.082 debug ReverseWords reverse() called / output text: ds12a as1d ewq 
-01-28 10:12:27.142 info ViewInteraction Checking 'MatchesViewAssertion{viewMatcher=with text: is "ds12a as1d ewq"}' assertion on view with id: com.example.alex.task1anagrams:id/textView_output
-01-28 10:12:27.162 debug dalvikvm GC_FOR_ALLOC freed 4137K, 57% free 3267K/7536K, paused 4ms, total 4ms
-01-28 10:12:27.162 info dalvikvm-heap Grow heap (frag case) to 6.830MB for 3686412-byte allocation
-01-28 10:12:27.162 debug dalvikvm GC_FOR_ALLOC freed <1K, 9% free 6867K/7536K, paused 5ms, total 5ms
-01-28 10:12:27.272 debug Spoon Captured screenshot 'end'.
-01-28 10:12:27.322 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@ad010f20 in: PAUSED
-01-28 10:12:27.322 info TestRunner finished: testMethod(com.example.alex.task1anagrams.MainActivityTest)
+01-28 13:02:58.481 info TestRunner started: testMethod(com.example.alex.task1anagrams.MainActivityTest)
+01-28 13:02:58.485 info MonitoringInstr Activities that are still in CREATED to STOPPED: 0
+01-28 13:02:58.486 warn ActivityTestRule getActivityIntent() returned null using default: Intent(Intent.ACTION_MAIN)
+01-28 13:02:58.486 info ActivityTestRule Launching activity: ComponentInfo{com.example.alex.task1anagrams/com.example.alex.task1anagrams.MainActivity}
+01-28 13:02:58.490 debug MonitoringInstr execStartActivity(context, ibinder, ibinder, activity, intent, int, bundle
+01-28 13:02:58.599 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@1519d93 in: PRE_ON_CREATE
+01-28 13:02:58.761 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@1519d93 in: CREATED
+01-28 13:02:58.768 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@1519d93 in: STARTED
+01-28 13:02:58.773 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@1519d93 in: RESUMED
+01-28 13:02:58.804 debug OpenGLRenderer HWUI GL Pipeline
+01-28 13:02:58.804 debug OpenGLRenderer [ 01-28 13:02:58.897  6606: 6626 D/         ]
+01-28 13:02:58.804 debug OpenGLRenderer HostConnection::get() New Host Connection established 0x8dce1040, tid 6626
+01-28 13:02:58.903 info zygote android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+01-28 13:02:58.903 info OpenGLRenderer Initialized EGL, version 1.4
+01-28 13:02:58.903 debug OpenGLRenderer Swap behavior 1
+01-28 13:02:58.957 debug EGL_emulation eglCreateContext: 0xa1485120: maj 2 min 0 rcv 2
+01-28 13:02:58.995 debug EGL_emulation eglMakeCurrent: 0xa1485120: ver 2 0 (tinfo 0xa1483350)
+01-28 13:02:59.184 debug EGL_emulation eglMakeCurrent: 0xa1485120: ver 2 0 (tinfo 0xa1483350)
+01-28 13:03:00.471 verbose View dispatchProvideAutofillStructure(): not laid out, ignoring 0 children of 1073741830
+01-28 13:03:00.478 info AssistStructure Flattened final assist data: 2180 bytes, containing 1 windows, 8 views
+01-28 13:03:01.383 debug Spoon Captured screenshot 'start'.
+01-28 13:03:01.437 debug InputManagerEventInjectionStrategy Creating injection strategy with input manager.
+01-28 13:03:01.486 info ViewInteraction Performing 'type text(as12d ds1a qwe)' action on view with id: com.example.alex.task1anagrams:id/editText_input
+01-28 13:03:01.807 debug UiControllerImpl Injecting string: "as12d ds1a qwe"
+01-28 13:03:01.981 debug ReverseWords reverse() called / input text: a
+01-28 13:03:01.982 debug ReverseWords reverse() called / output text: a 
+01-28 13:03:02.201 debug ReverseWords reverse() called / input text: as
+01-28 13:03:02.202 debug ReverseWords reverse() called / output text: sa 
+01-28 13:03:02.480 debug ReverseWords reverse() called / input text: as1
+01-28 13:03:02.480 debug ReverseWords reverse() called / output text: sa1 
+01-28 13:03:02.699 debug ReverseWords reverse() called / input text: as12
+01-28 13:03:02.700 debug ReverseWords reverse() called / output text: sa12 
+01-28 13:03:02.846 debug ReverseWords reverse() called / input text: as12d
+01-28 13:03:02.847 debug ReverseWords reverse() called / output text: ds12a 
+01-28 13:03:02.850 info zygote Do partial code cache collection, code=30KB, data=23KB
+01-28 13:03:02.850 info zygote After code cache collection, code=30KB, data=23KB
+01-28 13:03:02.850 info zygote Increasing code cache capacity to 128KB
+01-28 13:03:03.101 debug ReverseWords reverse() called / input text: as12d 
+01-28 13:03:03.102 debug ReverseWords reverse() called / output text: ds12a 
+01-28 13:03:03.400 debug ReverseWords reverse() called / input text: as12d d
+01-28 13:03:03.400 debug ReverseWords reverse() called / output text: ds12a d 
+01-28 13:03:03.600 debug ReverseWords reverse() called / input text: as12d ds
+01-28 13:03:03.601 debug ReverseWords reverse() called / output text: ds12a sd 
+01-28 13:03:03.747 debug ReverseWords reverse() called / input text: as12d ds1
+01-28 13:03:03.748 debug ReverseWords reverse() called / output text: ds12a sd1 
+01-28 13:03:03.982 debug ReverseWords reverse() called / input text: as12d ds1a
+01-28 13:03:03.983 debug ReverseWords reverse() called / output text: ds12a as1d 
+01-28 13:03:04.166 debug ReverseWords reverse() called / input text: as12d ds1a 
+01-28 13:03:04.169 debug ReverseWords reverse() called / output text: ds12a as1d 
+01-28 13:03:04.523 debug ReverseWords reverse() called / input text: as12d ds1a q
+01-28 13:03:04.524 debug ReverseWords reverse() called / output text: ds12a as1d q 
+01-28 13:03:04.556 info zygote Do partial code cache collection, code=61KB, data=51KB
+01-28 13:03:04.556 info zygote After code cache collection, code=61KB, data=51KB
+01-28 13:03:04.556 info zygote Increasing code cache capacity to 256KB
+01-28 13:03:04.714 debug ReverseWords reverse() called / input text: as12d ds1a qw
+01-28 13:03:04.714 debug ReverseWords reverse() called / output text: ds12a as1d wq 
+01-28 13:03:05.016 debug ReverseWords reverse() called / input text: as12d ds1a qwe
+01-28 13:03:05.016 debug ReverseWords reverse() called / output text: ds12a as1d ewq 
+01-28 13:03:05.352 info ViewInteraction Checking 'MatchesViewAssertion{viewMatcher=with text: is "ds12a as1d ewq"}' assertion on view with id: com.example.alex.task1anagrams:id/textView_output
+01-28 13:03:06.329 debug Spoon Captured screenshot 'end'.
+01-28 13:03:06.333 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@1519d93 in: PAUSED
+01-28 13:03:06.348 info TestRunner finished: testMethod(com.example.alex.task1anagrams.MainActivityTest)

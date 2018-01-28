@@ -1,4 +1,4 @@
-# Referenced at C:\Users\Alex\AndroidStudioProjects\Task1Anagrams\app\src\main\res\layout\activity_main.xml:0
+# Referenced at \Task1Anagrams\app\src\main\res\layout\activity_main.xml:0
 -keep class android.support.constraint.ConstraintLayout { <init>(...); }
 
 # Referenced at C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4b349f54130e051934d7e33f3424e488\res\layout\abc_alert_dialog_material.xml:0
@@ -71,6 +71,6 @@
 # Referenced at C:\Users\Alex\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4b349f54130e051934d7e33f3424e488\res\layout\abc_screen_simple_overlay_action_mode.xml:0
 -keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
 
-# Referenced at C:\Users\Alex\AndroidStudioProjects\Task1Anagrams\app\build\intermediates\manifests\full\release\AndroidManifest.xml:20
+# Referenced at \Task1Anagrams\app\build\intermediates\manifests\full\release\AndroidManifest.xml:20
 -keep class com.example.alex.task1anagrams.MainActivity { <init>(...); }
 

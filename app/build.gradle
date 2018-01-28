@@ -1,7 +1,8 @@
 apply plugin: 'com.android.application'
 apply plugin: "com.jaredsburrows.spoon"
 
-def paranoid = "on"
+//def paranoid = "on"
+def paranoid = "off"
 
 def propFile = new File('sign.config')
 Properties props = new Properties()
