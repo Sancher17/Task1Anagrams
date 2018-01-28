@@ -19,51 +19,14 @@ public class ReverseWords {
     private static Logger LOGGER = new Logger(ReverseWords.class);
 
     private Context context;
-//    private static Character FIRST_LETTER = '\u0041';
-//    private static Character LAST_LETTER = '\u007A';
-//    public static String KEYBOARD = "en";
 
     public ReverseWords(Context context) {
         this.context = context;
     }
-//    1.проверяем текущую клавиатуру
-//    private void checkKeyboard() {
-//        if (context != null) {
-//            LOGGER.log("checkKeyboard() called / context not null: " + context.toString());
-//            InputMethodManager imm = (InputMethodManager) context.getSystemService(INPUT_METHOD_SERVICE);
-//            if (imm != null){
-//                InputMethodSubtype ims = imm.getCurrentInputMethodSubtype();
-//                String localeString = ims.getLocale();
-//                Locale locale = new Locale(localeString);
-//                KEYBOARD = locale.getLanguage();
-//            }
-//            LOGGER.log("checkKeyboard() called / KEYBOARD: " + KEYBOARD);
-//        } else {
-//            LOGGER.log("checkKeyboard() called / context null");
-//        }
-//    }
-//
-//    //2.проверяем локализацию
-//    private void checkLocale() {
-//        LOGGER.log("checkLocale() called");
-//        if (KEYBOARD.contains("en")) {
-//            FIRST_LETTER = '\u0041';
-//            LAST_LETTER = '\u007A';
-//        } else if (KEYBOARD.contains("ru")) {
-//            FIRST_LETTER = '\u0410';
-//            LAST_LETTER = '\u044F';
-//        } else if (KEYBOARD.contains("iw_IL")) {
-//            FIRST_LETTER = '\u0590';
-//            LAST_LETTER = '\u05F4';
-//        } else {
-//            LOGGER.log("checkLocale() / nothing ");
-//        }
-//    }
-    //преобразовываем текст
+
     public String reverse(String input) {
         LOGGER.log("reverse() called / input text: " + input);
-//        checkKeyboard();
-//        checkLocale();
+
         List<String> list = Arrays.asList(input.split(" "));//разделяем на слова
         String output = "";
         for (String str : list) {
@@ -76,7 +39,6 @@ public class ReverseWords {
             for (int i = 0; i < strToArray.length; i++) {
                 listOfWords.add(strToArray[i]);
                 //сортируем буквы и символы
-//                if (listOfWords.get(i) >= FIRST_LETTER & listOfWords.get(i) <= LAST_LETTER) {
                 if (Character.isAlphabetic(listOfWords.get(i))) {
                     listOfSymbols.add(0, listOfWords.get(i));
                 } else {
