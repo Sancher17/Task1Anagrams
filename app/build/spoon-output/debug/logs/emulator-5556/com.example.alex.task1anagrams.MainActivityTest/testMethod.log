@@ -1,0 +1,59 @@
+01-28 10:12:31.273 info TestRunner started: testMethod(com.example.alex.task1anagrams.MainActivityTest)
+01-28 10:12:31.277 info MonitoringInstr Activities that are still in CREATED to STOPPED: 0
+01-28 10:12:31.278 warn ActivityTestRule getActivityIntent() returned null using default: Intent(Intent.ACTION_MAIN)
+01-28 10:12:31.278 info ActivityTestRule Launching activity: ComponentInfo{com.example.alex.task1anagrams/com.example.alex.task1anagrams.MainActivity}
+01-28 10:12:31.281 debug MonitoringInstr execStartActivity(context, ibinder, ibinder, activity, intent, int, bundle
+01-28 10:12:31.339 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@2e3c591e in: PRE_ON_CREATE
+01-28 10:12:31.372 warn art Suspending all threads took: 17.528ms
+01-28 10:12:31.418 info art Background partial concurrent mark sweep GC freed 408(47KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 1018KB/2041KB, paused 19.237ms total 60.934ms
+01-28 10:12:31.419 warn art Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+01-28 10:12:31.558 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@2e3c591e in: CREATED
+01-28 10:12:31.559 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@2e3c591e in: STARTED
+01-28 10:12:31.559 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@2e3c591e in: RESUMED
+01-28 10:12:31.566 debug OpenGLRenderer Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+01-28 10:12:31.566 debug OpenGLRenderer [ 01-28 10:12:31.582  9332: 9332 D/         ]
+01-28 10:12:31.566 debug OpenGLRenderer HostConnection::get() New Host Connection established 0xb43e71a0, tid 9332
+01-28 10:12:31.584 debug Atlas Validating map...
+01-28 10:12:31.661 info OpenGLRenderer Initialized EGL, version 1.4
+01-28 10:12:31.725 debug EGL_emulation eglCreateContext: 0xae434e20: maj 2 min 0 rcv 2
+01-28 10:12:31.727 debug EGL_emulation eglMakeCurrent: 0xae434e20: ver 2 0
+01-28 10:12:31.759 debug OpenGLRenderer Enabling debug mode 0
+01-28 10:12:31.828 debug EGL_emulation eglMakeCurrent: 0xae434e20: ver 2 0
+01-28 10:12:33.563 info art Background partial concurrent mark sweep GC freed 396(19KB) AllocSpace objects, 0(0B) LOS objects, 29% free, 9MB/13MB, paused 9.983ms total 39.961ms
+01-28 10:12:33.896 debug Spoon Captured screenshot 'start'.
+01-28 10:12:33.910 debug InputManagerEventInjectionStrategy Creating injection strategy with input manager.
+01-28 10:12:33.927 info ViewInteraction Performing 'type text(as12d ds1a qwe)' action on view with id: com.example.alex.task1anagrams:id/editText_input
+01-28 10:12:34.226 debug UiControllerImpl Injecting string: "as12d ds1a qwe"
+01-28 10:12:34.263 debug ReverseWords reverse() called / input text: a
+01-28 10:12:34.263 debug ReverseWords reverse() called / output text: a 
+01-28 10:12:34.386 debug ReverseWords reverse() called / input text: as
+01-28 10:12:34.386 debug ReverseWords reverse() called / output text: sa 
+01-28 10:12:34.469 debug ReverseWords reverse() called / input text: as1
+01-28 10:12:34.469 debug ReverseWords reverse() called / output text: sa1 
+01-28 10:12:34.762 debug ReverseWords reverse() called / input text: as12
+01-28 10:12:34.762 debug ReverseWords reverse() called / output text: sa12 
+01-28 10:12:34.882 debug ReverseWords reverse() called / input text: as12d
+01-28 10:12:34.882 debug ReverseWords reverse() called / output text: ds12a 
+01-28 10:12:34.941 debug ReverseWords reverse() called / input text: as12d 
+01-28 10:12:34.941 debug ReverseWords reverse() called / output text: ds12a 
+01-28 10:12:34.992 debug ReverseWords reverse() called / input text: as12d d
+01-28 10:12:34.992 debug ReverseWords reverse() called / output text: ds12a d 
+01-28 10:12:35.076 debug ReverseWords reverse() called / input text: as12d ds
+01-28 10:12:35.076 debug ReverseWords reverse() called / output text: ds12a sd 
+01-28 10:12:35.201 debug ReverseWords reverse() called / input text: as12d ds1
+01-28 10:12:35.201 debug ReverseWords reverse() called / output text: ds12a sd1 
+01-28 10:12:35.298 debug ReverseWords reverse() called / input text: as12d ds1a
+01-28 10:12:35.298 debug ReverseWords reverse() called / output text: ds12a as1d 
+01-28 10:12:35.405 debug ReverseWords reverse() called / input text: as12d ds1a 
+01-28 10:12:35.405 debug ReverseWords reverse() called / output text: ds12a as1d 
+01-28 10:12:35.460 debug ReverseWords reverse() called / input text: as12d ds1a q
+01-28 10:12:35.460 debug ReverseWords reverse() called / output text: ds12a as1d q 
+01-28 10:12:35.568 debug ReverseWords reverse() called / input text: as12d ds1a qw
+01-28 10:12:35.568 debug ReverseWords reverse() called / output text: ds12a as1d wq 
+01-28 10:12:35.875 debug ReverseWords reverse() called / input text: as12d ds1a qwe
+01-28 10:12:35.875 debug ReverseWords reverse() called / output text: ds12a as1d ewq 
+01-28 10:12:36.369 info ViewInteraction Checking 'MatchesViewAssertion{viewMatcher=with text: is "ds12a as1d ewq"}' assertion on view with id: com.example.alex.task1anagrams:id/textView_output
+01-28 10:12:36.499 info art Background partial concurrent mark sweep GC freed 131(25KB) AllocSpace objects, 1(7MB) LOS objects, 28% free, 9MB/13MB, paused 7.616ms total 29.788ms
+01-28 10:12:36.966 debug Spoon Captured screenshot 'end'.
+01-28 10:12:37.023 debug LifecycleMonitor Lifecycle status change: com.example.alex.task1anagrams.MainActivity@2e3c591e in: PAUSED
+01-28 10:12:37.032 info TestRunner finished: testMethod(com.example.alex.task1anagrams.MainActivityTest)

@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.alex.task1anagrams.test" tests="1" failures="0" errors="0" skipped="0" time="0.004" timestamp="2018-01-28T10:12:29" hostname="localhost">
+  <properties />
+  <testcase name="testMethod" classname="com.example.alex.task1anagrams.MainActivityTest" time="2.536" />
+</testsuite>
